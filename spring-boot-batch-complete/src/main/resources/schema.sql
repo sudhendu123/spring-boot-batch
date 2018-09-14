@@ -1,0 +1,7 @@
+DROP TABLE Users IF EXISTS;
+
+CREATE TABLE Users  (
+    Users_id BIGINT IDENTITY NOT NULL PRIMARY KEY,
+    Users_name VARCHAR(20),
+    Users_address VARCHAR(20)
+);
